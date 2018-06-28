@@ -1,0 +1,26 @@
+{
+  "name": "remark-plain-text",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "format": "prettier 'src/**/*' --write",
+    "watch": "mocha --require babel-register --watch",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "author": "teramotodaiki",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "@types/node": "^10.3.6",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.5",
+    "remark": "^9.0.0",
+    "remark-cli": "^5.0.0",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2",
+    "unist-util-visit": "^1.3.1"
+  }
+}
