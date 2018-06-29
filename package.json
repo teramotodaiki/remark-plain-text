@@ -1,7 +1,8 @@
 {
   "name": "remark-plain-text",
   "version": "0.0.1",
-  "description": "",
+  "description": "Remark plugin extracting plain text",
+  "keywords": ["remark", "plain", "text"],
   "main": "lib/index.js",
   "scripts": {
     "format": "prettier 'src/**/*' --write",
