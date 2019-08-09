@@ -27,5 +27,8 @@
     "ts-node": "^6.1.1",
     "typescript": "^2.9.2",
     "unist-util-visit": "^1.4.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.19"
   }
 }
