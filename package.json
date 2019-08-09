@@ -11,7 +11,7 @@
   "scripts": {
     "format": "prettier 'src/**/*' --write",
     "watch": "mocha --require babel-register --watch",
-    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    "test": "prettier 'src/**/*' -l && mocha -r ts-node/register src/**/*.spec.ts"
   },
   "author": "teramotodaiki",
   "license": "MIT",
